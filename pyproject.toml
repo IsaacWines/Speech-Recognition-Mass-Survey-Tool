@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "speech-recognition-project"
+version = "0.1.0"
+description = ""
+authors = ["Isaac Wines"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+levenshtein = "^0.25.0"
+vosk = "^0.3.45"
+transformers = "^4.38.2"
+python-dotenv = "^1.0.1"
+ffmpeg-python = "^0.2.0"
+logging = "^0.4.9.6"
+pytest = "^8.0.2"
+openai-whisper = {git = "https://github.com/openai/whisper.git", rev = "ba3f3cd54b0e5b8ce1ab3de13e32122d0d5f98ab"}
+pytube = "^15.0.0"
+deepgram-sdk = "3"
+pydub = "^0.25.1"
+google-cloud-speech = "^2.25.0"
+pyaudio = "^0.2.14"
+google-cloud-storage = "^2.14.0"
+pocketsphinx = {path = "pocketsphinx-0.1.15-cp310-cp310-win_amd64.whl"}
+bs4 = "^0.0.2"
+lyricsgenius = "^3.0.1"
+matplotlib = "^3.8.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

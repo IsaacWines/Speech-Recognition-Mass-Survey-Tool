@@ -1,0 +1,1 @@
+**Rename this file to 'lyric_token'** and add your token from the lyric genius api by itself in this file.

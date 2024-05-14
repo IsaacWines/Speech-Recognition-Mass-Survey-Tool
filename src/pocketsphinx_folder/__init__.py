@@ -1,0 +1,1 @@
+from . import pocketsphinx_demo

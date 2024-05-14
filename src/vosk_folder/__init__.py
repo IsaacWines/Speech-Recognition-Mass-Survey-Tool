@@ -1,0 +1,1 @@
+from . import vosk_demo
